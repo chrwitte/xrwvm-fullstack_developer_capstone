@@ -1,48 +1,93 @@
 <html>
-<head>
-  <link rel="stylesheet" href="/static/style.css">
-  <link rel="stylesheet" href="/static/bootstrap.min.css">
-</head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
-    <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Contact Us</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
-        </ul>
+  <head>
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="/static/bootstrap.min.css" />
+  </head>
+  <div>
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: darkturquoise; height: 1in"
+    >
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%">Contact Us</h2>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                style="font-size: larger"
+                aria-current="page"
+                href="/"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: larger" href="/about"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger" href="/contact"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
+    </nav>
+
+    <div class="card" style="width: 80%; margin: auto; margin-top: 5%">
       <div class="banner" name="about-header">
         <h1>Contact Us</h1>
       </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/cars.jpeg" alt="Card image">
-        <div class="card-body">
-          <img class="card-img" src="/static/contactus.png" alt="Card image">
-          <p class="card-text"></p>
+      <div style="display: flex; flex-direction: row; margin: auto">
+        <div class="card" style="width: 80%">
+          <img class="card-img-top" src="/static/cars.jpeg" alt="Card image" />
+
+          <div class="card-body">
+            <table style="width: 100%">
+              <tr>
+                <td
+                  style="
+                    width: 50%;
+                    border-right: 1px solid #000;
+                    padding-right: 20px;
+                    padding-left: 20px;
+                  "
+                >
+                  <img
+                    class="card-img"
+                    src="/static/contactus.png"
+                    alt="Card image"
+                  />
+                  <p class="card-text">
+                    Feel free to reach out to us with any questions or concerns.
+                    We are here to help you!
+                  </p>
+                </td>
+                <td style="width: 50%; padding-left: 20px">
+                  <p class="card-text">
+                    1234 Elm Street, Springfield, IL 62704
+                  </p>
+                  <p class="card-text">Phone: (555) 123-4567</p>
+                  <p class="card-text">Email: contact@example.com</p>
+                </td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
-      </div>
     </div>
-    </div>
-    </div>
-    
-</div>
-
+  </div>
 </html>
