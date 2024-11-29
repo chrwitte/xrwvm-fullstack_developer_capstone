@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 server/Pipfile.lock
 .vscode/launch.json
+server/frontend/package-lock.json
+server/frontend/package-lock.json
+server/frontend/package.json
