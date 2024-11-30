@@ -132,3 +132,7 @@ server/Pipfile.lock
 server/frontend/package-lock.json
 server/frontend/package-lock.json
 server/frontend/package.json
+Pipfile
+Pipfile.lock
+server/frontend/package-lock.json
+server/frontend/package.json
