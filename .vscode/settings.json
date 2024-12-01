@@ -1,4 +1,7 @@
 {
     "editor.formatOnSave": true,
-    "html.format.templating": true
+    "html.format.templating": true,
+    "pylint.args": [
+        "--load-plugins=pylint_django"
+    ],
 }
